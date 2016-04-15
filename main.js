@@ -80,11 +80,12 @@ for (var i=0; i<assassins.length; i+=1) {
 	biography= assassins[i].biography;
 	price= assassins[i].price;
 	divJsInput.innerHTML +=
-	"<div>" + "<img src='" + image + "'/>" +
+	"<div class='wholeP'>" + "<img src='" + image + "'/>" +
+	"<div class='proContent'" +
 	"<h3>" + name + "</h3>" +
 	"<p>" + experience + "</p>" +
 	"<p>" + biography + "</p>" +
-	"<p>" + price + "</p>" +
+	"<p>" + price + "</p>" + "</div>" +
 	"</div>";
 };
 

@@ -2,7 +2,7 @@
 
 /* General styling for the body of each page to ensure uniformity*/
 
-.mainBody, #jsInput {
+.wrapper {
   font-family: 'Boogaloo';
   background-color: #ea3ab8;
 }
@@ -15,7 +15,7 @@ img {
 
 
 body {
-margin:0;
+margin: 0;
 
 }
 /*HEADER*/
@@ -23,29 +23,30 @@ margin:0;
 	font-family: 'Bangers';
 	text-align: center;
 	background-image: linear-gradient(#FFBC42, #005C69);
-	height: 300px;
-	margin-bottom: 100px;
+	height: 400px;
+/*	margin-bottom: 100px;*/
 }
 .mainHead h1{
-	font-size: 7em;
-	margin: 0 0 118px 0;
+	font-size: 10em;
+	margin: 0 0 85px 0;
 	padding-top: 5%;
-
-
+  color: whitesmoke;
+  letter-spacing: 5px;
+  text-shadow: 5px 5px 10px #000;
 }
 
 /*NAV BAR*/
 .navBar {
 	display: block;
 	margin: auto;
-	background-color: #005C69;
+/*	background-color: #005C69;*/
 }
 .navBar ul{
 	display: inline-block;
 	padding: 1%;
 	margin: 1% 10%;
 	background-color: #FFBC42;
-	width: 109px;
+	width: 115px;
 
 }
 
@@ -67,9 +68,51 @@ ul:hover {
 	font-size: 102%;
 }
 
+.assassinsTitle {
+  text-align: center;
+  margin-top: 5%;
+}
+
+/*************************
+  Homepage Product
+**************************/
+#jsInput {
+  width: 80%;
+  margin: auto;
+}
+
+#jsInput img {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.proContent {
+  display: inline-block;
+  float: right;
+  width: 60%;
+}
+
+.wrapper {
+  overflow: auto;
+}
+
+.wholeP {
+  overflow: auto;
+  background-color: #FFD27F;
+  border: 3px solid black;
+  border-radius: 2em;
+  margin: 5%;
+  padding: 3%;
+}
+
 /*************************
   About Page
 **************************/
+.aboutHeader {
+  margin-top: 5%;
+}
 
 .mainBody {
   width: 80%;
@@ -79,18 +122,22 @@ ul:hover {
 .aboutTop {
   display: block;
   text-align: center;
-  margin: 5%;
+  margin-top: 0;
 }
 
 .img50cal {
+  display: block;
   border-radius: 3em;
-  margin: 2% 0;
+  margin: auto;
 }
 
 .pMissionDiv,
 .pHistoryDiv {
+  background-color: #FFD27F;
+  border: 3px solid black;
   border-radius: 2em;
   margin: 5%;
+  padding: 3%;
 }
 
 /*************************
@@ -102,15 +149,21 @@ ul:hover {
   margin: auto;
 }
 
-.foundHeader {
+.foundHeader h1 {
   display: block;
   text-align: center;
-  margin: 5%;
+  margin-top: 5%;
+  font-size: 3em;
 }
 
 .founder {
   display: block;
   overflow: auto;
+  background-color: #FFD27F;
+  border: 3px solid black;
+  border-radius: 2em;
+  margin: 5%;
+  padding: 3%;
 }
 
 .foundImgDiv {
@@ -134,4 +187,11 @@ ul:hover {
 
 .foundDesc {
   margin: auto 0;
+  font-size: 1.75em;
+}
+
+.foundName {
+  font-size: 2.2em;
+  font-family: 'Bangers';
+  letter-spacing: .1em;
 }
