@@ -53,7 +53,7 @@ var assassins = [
 	{
 		image:"imgs/aeon.jpg",
 		name: "Aeon Flux",
-		experience: "",
+		experience: "50 years",
 		biography: "don't p!ss down my back and tell me it's raining. man's gotta know his limitations. what you have to ask yourself is, do i feel lucky. well do ya' punk?",
 		price: "$45,000"
 	},
