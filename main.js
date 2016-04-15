@@ -73,12 +73,6 @@ var assassins = [
 	},
 ];
 console.log(assassins);
-// var image;
-// var name;
-// var experience;
-// var biography;
-// var price;
-// var divJsInput = document.getElementById("jsInput");
 for (var i=0; i<assassins.length; i+=1) {
 	image= assassins[i].image;
 	name= assassins[i].name;
