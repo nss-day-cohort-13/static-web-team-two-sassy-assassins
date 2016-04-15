@@ -1,0 +1,17 @@
+/* CSS page for the Sassy Assassins */
+
+/* General styling for the body of each page to ensure uniformity*/
+body {
+  margin: 0 0;
+}
+
+.mainBody, #jsInput {
+  font-family: 'Boogaloo';
+  background-color: #ea3ab8;
+}
+
+/* Image styling */
+
+img {
+  border: 3px solid black;
+}
