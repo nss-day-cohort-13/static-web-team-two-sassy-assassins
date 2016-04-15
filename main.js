@@ -81,8 +81,8 @@ for (var i=0; i<assassins.length; i+=1) {
 	price= assassins[i].price;
 	divJsInput.innerHTML +=
 	"<div class='wholeP'>" + "<img src='" + image + "'/>" +
-	"<div class='proContent'" +
-	"<h3>" + name + "</h3>" +
+	"<div class='proContent'>" +
+	"<h2 class='nameA'>" + name + "</h2>" +
 	"<p>" + experience + "</p>" +
 	"<p>" + biography + "</p>" +
 	"<p>" + price + "</p>" + "</div>" +

@@ -24,11 +24,11 @@ margin: 0;
 	text-align: center;
 	background-image: linear-gradient(#FFBC42, #005C69);
 	height: 400px;
-/*	margin-bottom: 100px;*/
+  border-bottom: 3px solid #FFD27F;
 }
 .mainHead h1{
 	font-size: 10em;
-	margin: 0 0 85px 0;
+	margin: 0 0 50px 0;
 	padding-top: 5%;
   color: whitesmoke;
   letter-spacing: 5px;
@@ -39,21 +39,20 @@ margin: 0;
 .navBar {
 	display: block;
 	margin: auto;
-/*	background-color: #005C69;*/
 }
 .navBar ul{
 	display: inline-block;
-	padding: 1%;
-	margin: 1% 10%;
+	padding: 2%;
+	margin: 1% 8%;
 	background-color: #FFBC42;
-	width: 115px;
-
+	width: 140px;
+  border-radius: 2em;
 }
 
 .navBar li {
 	list-style: none;
-	display: inline,
-
+	display: inline;
+  font-size: 1.2em;
 }
 
 a {
@@ -68,9 +67,15 @@ ul:hover {
 	font-size: 102%;
 }
 
-.assassinsTitle {
+.assassinsTitle, .foundHeader {
   text-align: center;
   margin-top: 5%;
+  font-size: 3em;
+  font-family: 'Bangers';
+  color: #FFD27F;
+  text-shadow: 5px 5px 10px #000;
+  letter-spacing: .1em;
+
 }
 
 /*************************
@@ -86,12 +91,14 @@ ul:hover {
   float: left;
   width: 30%;
   border-radius: 50%;
+  margin-top: 3.2%;
 }
 
 .proContent {
   display: inline-block;
   float: right;
   width: 60%;
+  font-size: 1.3em;
 }
 
 .wrapper {
@@ -105,6 +112,10 @@ ul:hover {
   border-radius: 2em;
   margin: 5%;
   padding: 3%;
+}
+
+.nameA {
+  font-size: 1.5em;
 }
 
 /*************************
@@ -123,6 +134,7 @@ ul:hover {
   display: block;
   text-align: center;
   margin-top: 0;
+  font-size: 1.5em;
 }
 
 .img50cal {
@@ -138,6 +150,7 @@ ul:hover {
   border-radius: 2em;
   margin: 5%;
   padding: 3%;
+  font-size: 1.2em;
 }
 
 /*************************
@@ -155,6 +168,7 @@ ul:hover {
   margin-top: 5%;
   font-size: 3em;
   letter-spacing: .1em;
+  font-family: 'Bangers';
 }
 
 .founder {
