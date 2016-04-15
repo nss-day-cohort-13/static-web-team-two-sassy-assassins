@@ -1,0 +1,71 @@
+body {
+margin:0;
+
+}
+/*HEADER*/
+.mainHead  {
+	font-family: 'Bangers';
+	text-align: center;
+	background-image: linear-gradient(#FFBC42, #005C69);
+	height: 300px;
+	margin-bottom: 100px;
+}
+.mainHead h1{
+	font-size: 7em;
+	margin: 0 0 118px 0;
+	padding-top: 5%;
+
+
+}
+
+.navBar {
+	display: block;
+	margin: auto;
+	background-color: #005C69;
+}
+.navBar ul{
+	display: inline-block;
+	padding: 1%;
+	margin: 1% 10%;
+	background-color: #FFBC42;
+	width: 109px;
+
+}
+
+.navBar li {
+	list-style: none;
+	display: inline,
+
+}
+
+a {
+	color: #8F2D56;
+	text-decoration: none;
+}
+a:visited {
+	color:#8F2D56;
+}
+
+ul:hover {
+	font-size: 102%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
